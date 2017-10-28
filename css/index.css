@@ -1,0 +1,35 @@
+#Banner{
+	margin: auto;
+	width: 1000px;
+	height: 475px;
+	position: relative;
+	overflow: hidden;
+}
+#Banner #img{
+	position: absolute;
+	width: 10000px;
+	height: 475px;
+}
+#Banner ul li{
+	float: left;
+}
+#bLine{
+	position: relative;
+	width: 240px;
+	margin: auto;
+	margin-top: 20px;
+}
+#bLine li{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 4px;
+	margin-left: 15px;
+	background: rgb(200,200,200);
+	cursor: pointer;
+}
+#bLine li.current{
+	background: rgb(50, 50, 50);
+}
+
+
