@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #878787;
+}
+/*header 样式*/
+#header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "microsoft yahei",Arial;
+}
+
+#header .header-top{
+    width: 100%;
+    height: 56px;
+    min-width: 1000px;
+    background: #25292e;
+    line-height: 56px;
+}
+
+#header .header-top .top-menu{
+    width: 1000px;
+    margin: 0 auto;
+}
+#header .header-top .top-menu #logo{
+    width: 95px;
+    height: 38px;
+    margin: 9px auto;
+    background: url("../img/icon.png") no-repeat;
+    float: left;
+}
+
+#header .header-top .top-menu .nav_right{
+    height: 56px;
+    position: relative;
+    z-index: 10;
+    float: right;
+
+}
+
+#header .header-top .top-menu .nav_right li{
+    height: 56px;
+    line-height: 56px;
+    font-size: 12px;
+    float: left;
+}
+
+#header .header-top .top-menu .nav_right li>a{
+    display: inline-block;
+    zoom: 1;
+    height: 56px;
+    line-height: 56px;
+    color: #666;
+    padding: 0 15px;
+}
+#header .header-top .top-menu .nav_right li.login-reg a{
+    padding: 0;
+}
+#header .header-top .top-menu .nav_right li.login-reg .login{
+    margin-right: 8px;
+}
+
+#header .header-top .top-menu .nav_right li.login-reg .reg{
+    padding-right: 15px;
+}
+#header .header-top .top-menu .nav_right li.login-reg a,#header .header-top .top-menu .nav_right li.login-reg a:hover{
+    color: #cccccc;
+}
+
+#header .header-top .top-menu .nav_right li.line{
+    width: 1px;
+    height: 8px;
+    margin-top: 25px;
+    background: #5d5f63;
+}
