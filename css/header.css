@@ -222,7 +222,9 @@ a{
     border-bottom: #ededed solid 4px;
     display: block;
 }
-
+#header .header-menu ul li.homepage>a{
+    border-bottom: #333333 solid 4px;
+}
 #header .header-menu ul li:hover>a{
     border-bottom: #333333 solid 4px;
 }
@@ -305,16 +307,6 @@ a{
 }
 
 #header .header-subnav .header-subnav-cato{
-    /* width: 100%;
-    min-width: 1000px;
-    height: 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #ffffff;
-    overflow: hidden;
-    z-index: 99;
-    transition: top 0.2s ease; */
     width: 1000px;
     margin: 0 auto;
 }
@@ -334,12 +326,13 @@ a{
     float: right;
 }
 
-#header .header-subnav .cato .storeLeft ul li{
+#header .header-subnav .cato .storeLeft .shop{
     float: left;
     width: 107px;
+    position: relative;
 }
 
-#header .header-subnav .cato .storeLeft ul li .dt{
+#header .header-subnav .cato .storeLeft .shop .dt{
     width: 122px;
     height: 62px;
     line-height: 90px;
@@ -349,7 +342,7 @@ a{
     margin-left: -20px;
 }
 
-#header .header-subnav .cato .storeLeft ul li .dt .cat-img{
+#header .header-subnav .cato .storeLeft .shop .dt .cat-img{
     margin-top: 23px;
     margin-left: 17px;
     margin-right: 67px;
@@ -358,19 +351,46 @@ a{
     height: 54px;
 }
 
-#header .header-subnav .cato .storeLeft ul li .dt .cat-img img{
+#header .header-subnav .cato .storeLeft .shop .dt .cat-img img{
     width:40px;
     height:40px
 }
 
-#header .header-subnav .cato .storeLeft ul li .dt .cat-name{
+#header .header-subnav .cato .storeLeft .shop .dt .cat-name{
     width: 50px;
     height: 20px;
     margin-top: -76px;
     margin-left: 6px;
     font-size: 14px;
 }
-#header .header-subnav .cato .storeLeft ul li .dt .cat-name a,#header .header-subnav .cato .storeLeft ul li .dt .cat-name a:visited,
-#header .header-subnav .cato .storeLeft ul li .dt .cat-name a:hover{
+#header .header-subnav .cato .storeLeft .shop .dt .cat-name a,#header .header-subnav .cato .storeLeft ul li .dt .cat-name a:visited,
+#header .header-subnav .cato .storeLeft .shop .dt .cat-name a:hover{
     color: #4d4d4d;
+}
+
+#header .header-subnav .cato .storeLeft .shop .kind{
+    width: 672px;
+    padding-top: 15px;
+    margin-top: 13px;
+    margin-left: 15px;
+    position: absolute;
+    left: -12px;
+    /* display: none; */
+    border-top: 1px solid silver;
+    line-height: 24px;
+}
+
+#header .header-subnav .cato .storeLeft .shop .kind span{
+    display: inline-block;
+    width: 103px;
+    height: 0px;
+}
+
+#header .header-subnav .cato .storeLeft .shop .kind span a{
+    color: #999999;
+    font-size: 12px;
+}
+
+#header .header-subnav .cato .storeLeft .shop .kind span a:hover{
+    color: #333333;
 }
