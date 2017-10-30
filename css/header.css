@@ -58,6 +58,11 @@ a{
     color: #666;
     padding: 0 15px;
 }
+
+#header .header-top .top-menu .nav_right li>a:hover{
+    color: #cccccc;
+}
+
 #header .header-top .top-menu .nav_right li.login-reg a{
     padding: 0;
 }
@@ -77,4 +82,295 @@ a{
     height: 8px;
     margin-top: 25px;
     background: #5d5f63;
+}
+
+#header .header-top .top-menu .nav_right li.shoppingcar .car-list{
+    width: 320px;
+    position: absolute;
+    top: 56px;
+    right: 0px;
+    background: #292f34;
+    z-index: 1000;
+    display: none;
+}
+
+#header .header-top .top-menu .nav_right li.shoppingcar .car-list #nullcar{
+    height: 70px;
+    line-height: 70px;
+    color: #9d9d9d;
+    padding: 0 20px;
+    font-size: 13px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#header .header-top .top-menu .nav_right li.shoppingcar .car-list #nullcar a {
+    color: #ccc;
+    cursor: text;
+}
+
+#header .header-top .top-menu .nav_right li.shoppingcar .car-list .add-product{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background: #7dbfde;
+    text-align: center;
+    font-size: 14px;
+    display: block;
+}
+
+#header .header-top .top-menu .nav_right li.shoppingcar .car-list .add-product:hover{
+    background: #96c8e0;
+}
+
+#header .header-top .top-menu .nav_right li.shoppingcar:hover .shopping-car{
+    background: #292f34;
+}
+
+#header .header-top .top-menu .nav_right li.shoppingcar:hover .car-list{
+    display: block;
+}
+
+#header .header-top .top-menu .nav_right li.messages{
+    position: relative;
+}
+
+#header .header-top .top-menu .nav_right li.messages:hover .msglist{
+    background: #292f34;
+}
+
+#header .header-top .top-menu .nav_right li.messages .user-msg{
+    width: 190px;
+    position: absolute;
+    top: 56px;
+    right: -69px;
+    background: #292f34;
+    z-index: 1000;
+    display: none;
+}
+
+#header .header-top .top-menu .nav_right li.messages .user-msg a{
+    display: block;
+    width: 160px;
+    height: 44px;
+    padding: 0 15px;
+    line-height: 44px;
+    background: #292f34;
+    cursor: pointer;
+}
+
+#header .header-top .top-menu .nav_right li.messages .user-msg a:hover{
+    background: #2e353d;
+}
+
+#header .header-top .top-menu .nav_right li.messages .user-msg a span{ 
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #3f4449;
+    color: #ccc;
+    font-size: 12px;
+    padding: 0;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    position: relative;
+}
+
+#header .header-top .top-menu .nav_right li.messages .user-msg a span small{
+    position: absolute;
+    right: 0;
+    top: 1px;
+}
+
+#header .header-top .top-menu .nav_right li.messages:hover .user-msg{
+    display: block;
+}
+
+/*二级导航菜单样式 */
+
+#header .header-menu{
+    width: 1000px;
+    height: 45px;
+    margin: 0 auto;
+    position: relative;
+    border-bottom: 4px solid #ededed;
+    background: #fff;
+}
+
+#header .header-menu ul{
+    width: 734px;
+    height: 49px;
+    float: left;
+}
+
+#header .header-menu ul li{
+    width: 164px;
+    height: 45px;
+    line-height: 46px;
+    float: left;
+    cursor: pointer;
+}
+
+#header .header-menu ul li>a{
+    width: 121px;
+    height: 45px;
+    line-height: 46px;
+    color: #333333;
+    font-size: 15px;
+    text-align: center;
+    border-bottom: #ededed solid 4px;
+    display: block;
+}
+
+#header .header-menu ul li:hover>a{
+    border-bottom: #333333 solid 4px;
+}
+
+#header .header-menu ul li.homepage,#header .header-menu ul li.homepage>a{
+    width: 118px;
+    text-align: left;
+}
+
+#header .header-menu ul li.daren,#header .header-menu ul li.daren>a{
+    width: 121px;
+}
+
+#header .header-menu .search{
+    width: 260px;
+    height: 49px;
+    line-height: 45px;
+    float: right;
+}
+
+#header .header-menu .search .search-input{
+    width: 260px;
+    height: 49px;
+    position: relative;
+    overflow: hidden;
+}
+
+#header .header-menu .search .search-input .search-blank{
+    width: 260px;
+    height: 45px;
+    border-bottom: 4px solid #25292e;
+    position: relative;
+    /* left: 280px; */
+    background: transparent;
+    text-align: left;
+    overflow: hidden;
+    font-family: "microsoft yahei";
+}
+
+#header .header-menu .search .search-input .search-blank input[type="text"]{
+    width: 188px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 4px;
+    position: relative;
+    top: 3px;
+    left: 4px;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+#header .header-menu .search .search-input s{
+    display: block;
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 46px;
+    height: 40px;
+    z-index: 6;
+    background: #ffffff;
+}
+
+#header .header-menu .search .search-icon{
+    width: 33px;
+    height: 40px;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 954px;
+    z-index: 9;
+    background: url("../img/icon.png") no-repeat;
+    background-position: -167px -145px;
+    background-color: #ffffff;
+}
+
+#header .header-subnav{
+    position: relative;
+    z-index: 8;
+}
+
+#header .header-subnav .header-subnav-cato{
+    /* width: 100%;
+    min-width: 1000px;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #ffffff;
+    overflow: hidden;
+    z-index: 99;
+    transition: top 0.2s ease; */
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#header .header-subnav .header-subnav-cato .cato{
+    /* display: none; */
+}
+
+#header .header-subnav .cato .storeLeft{
+    width: 750px;
+    float: left;
+}
+
+#header .header-subnav .cato .storeRight{
+    width: 232px;
+    margin-top: 42px;
+    float: right;
+}
+
+#header .header-subnav .cato .storeLeft ul li{
+    float: left;
+    width: 107px;
+}
+
+#header .header-subnav .cato .storeLeft ul li .dt{
+    width: 122px;
+    height: 62px;
+    line-height: 90px;
+    font-size: 13px;
+    text-align: left;
+    font-weight: 600;
+    margin-left: -20px;
+}
+
+#header .header-subnav .cato .storeLeft ul li .dt .cat-img{
+    margin-top: 23px;
+    margin-left: 17px;
+    margin-right: 67px;
+    padding-bottom: 36px;
+    width: 40px;
+    height: 54px;
+}
+
+#header .header-subnav .cato .storeLeft ul li .dt .cat-img img{
+    width:40px;
+    height:40px
+}
+
+#header .header-subnav .cato .storeLeft ul li .dt .cat-name{
+    width: 50px;
+    height: 20px;
+    margin-top: -76px;
+    margin-left: 6px;
+    font-size: 14px;
+}
+#header .header-subnav .cato .storeLeft ul li .dt .cat-name a,#header .header-subnav .cato .storeLeft ul li .dt .cat-name a:visited,
+#header .header-subnav .cato .storeLeft ul li .dt .cat-name a:hover{
+    color: #4d4d4d;
 }
