@@ -1,0 +1,13 @@
+#Main{
+    width: 1000px;
+    margin:0 auto;
+}
+.nav{
+    width: 100%;
+    height: 20px;
+    line-height:20px;
+}
+.nav span{
+    font-size:12px;
+    color:#bfbfbf;
+}
