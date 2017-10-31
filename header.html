@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,16 @@
     <title>良仓·一站式生活电商平台</title>
     <link rel="stylesheet" href="./css/init.css">
     <link rel="stylesheet" href="./css/header.css">
+    <script src="./js/jquery-3.2.1.js"></script>
 </head>
+
 <body>
     <div id="header">
         <div class="header-top">
             <div class="top-menu clear-float">
-                <a href=""><div id="logo"></div></a>
+                <a href="">
+                    <div id="logo"></div>
+                </a>
                 <ul class="nav_right">
                     <li class="login-reg">
                         <a href="" class="login">登录</a>
@@ -35,12 +40,36 @@
                     <li class="messages">
                         <a href="" class="msglist">消息</a>
                         <div class="user-msg">
-                            <a href=""><span>动态<small>0</small></span></a>
-                            <a href=""><span>评论<small>0</small></span></a>
-                            <a href=""><span>私信<small>0</small></span></a>
-                            <a href=""><span>粉丝<small>0</small></span></a>
-                            <a href=""><span>喜欢<small>0</small></span></a>
-                            <a href=""><span>通知<small>0</small></span></a>
+                            <a href="">
+                                <span>动态
+                                    <small>0</small>
+                                </span>
+                            </a>
+                            <a href="">
+                                <span>评论
+                                    <small>0</small>
+                                </span>
+                            </a>
+                            <a href="">
+                                <span>私信
+                                    <small>0</small>
+                                </span>
+                            </a>
+                            <a href="">
+                                <span>粉丝
+                                    <small>0</small>
+                                </span>
+                            </a>
+                            <a href="">
+                                <span>喜欢
+                                    <small>0</small>
+                                </span>
+                            </a>
+                            <a href="">
+                                <span>通知
+                                    <small>0</small>
+                                </span>
+                            </a>
                         </div>
                     </li>
                     <li class="line"></li>
@@ -57,12 +86,308 @@
                 </li>
                 <li class="menuli">
                     <a href="">商店</a>
+                    <div class="cato clear-float" id="shopdata">
+                        <div class="storeLeft clear-float">
+                            <div class="shop-t one">
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23687.png">
+                                            <div class="cat-name">
+                                                <a href="">家居</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="kind">
+                                        <span>
+                                            <a href="">装饰摆件</a>
+                                        </span>
+                                        <span>
+                                            <a href="">生活用品</a>
+                                        </span>
+                                        <span>
+                                            <a href="">香薰香氛</a>
+                                        </span>
+                                        <span>
+                                            <a href="">空气净化</a>
+                                        </span>
+                                        <span>
+                                            <a href="">收纳整理</a>
+                                        </span>
+                                        <span>
+                                            <a href="">床品布艺</a>
+                                        </span>
+                                        <span>
+                                            <a href="">儿童家居</a>
+                                        </span>
+                                        <span>
+                                            <a href="">钟表灯具</a>
+                                        </span>
+                                        <span>
+                                            <a href="">衣物洗护</a>
+                                        </span>
+                                        <span>
+                                            <a href="">其它</a>
+                                        </span>
+                                        <span>
+                                            <a href="">运动器材</a>
+                                        </span>
+                                        <span>
+                                            <a href="">眼罩</a>
+                                        </span>
+                                        <span>
+                                            <a href="">情趣用品</a>
+                                        </span>
+                                        <span>
+                                            <a href="">口罩</a>
+                                        </span>
+                                        <span>
+                                            <a href="">电器</a>
+                                        </span>
+                                    </div>
+                                    <div class="triangle"></div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23685.png">
+                                            <div class="cat-name">
+                                                <a href="">家具</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23686.png">
+                                            <div class="cat-name">
+                                                <a href="">文具</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23683.png">
+                                            <div class="cat-name">
+                                                <a href="">数码</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23682.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">玩乐</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23684.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">厨卫</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23680.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">美食</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-t">
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23679.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">男装</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23678.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">女装</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23677.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">童装</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23676.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">鞋包</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23675.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">配饰</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23681.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">美护</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23674.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">户外</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="shop-t">
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23671.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">植物</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23668.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">图书</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23672.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">艺术</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23669.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">礼物</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop">
+                                    <div class="dt">
+                                        <div class="cat-img">
+                                            <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23670.png" alt="">
+                                            <div class="cat-name">
+                                                <a href="">推荐</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more">
+                                <a target="_self" href="">
+                                    查看所有品牌
+                                    <span>></span>
+                                </a>
+                                <a target="_self" href="">
+                                    最新到货
+                                    <span>></span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="storeRight">
+                            <a href="" target="_blank">
+                                <dl>
+                                    <dt>
+                                        <img alt="新视线： 2015年7月刊" title="新视线： 2015年7月刊" src="./img/view.jpg">
+                                    </dt>
+                                    <dd>新视线：&nbsp; 2015年7月刊</dd>
+                                </dl>
+                            </a>
+                        </div>
+                    </div>
                 </li>
-                <li class="menuli">
+                <li class="menuli" id="menuli-topic">
                     <a href="">杂志</a>
+                    <div class="cato" id="topicdata">
+                        <a href="">趣物</a>
+                        <a href="">数码</a>
+                        <a href="">汽车</a>
+                        <a href="">文化</a>
+                        <a href="">时尚</a>
+                        <a href="">美食</a>
+                        <a href="">建筑</a>
+                        <a href="">空间</a>
+                        <a href="">圈子</a>
+                        <a href="">清单</a>
+                        <a href="">活动</a>
+                        <a href="">视频</a>
+                    </div>
                 </li>
-                <li class="menuli">
+                <li class="menuli" id="menuli-share">
                     <a href="">分享</a>
+                    <div class="cato" id="sharedata">
+                        <a href="">男士</a>
+                        <a href="">家居</a>
+                        <a href="">数码</a>
+                        <a href="">工具</a>
+                        <a href="">玩具</a>
+                        <a href="">美容</a>
+                        <a href="">孩子</a>
+                        <a href="">宠物</a>
+                        <a href="">饮食</a>
+                        <a href="">运动</a>
+                        <a href="">文化</a>
+                        <a href="">女士</a>
+                    </div>
                 </li>
                 <li class="daren">
                     <a href="">达人</a>
@@ -79,186 +404,10 @@
             </div>
         </div>
         <div class="header-subnav">
-            <div class="header-subnav-cato">
-                <div class="cato clear-float" id="shopdata">
-                    <div class="storeLeft clear-float">
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23687.png">
-                                        <div class="cat-name"><a href="">家居</a></div>
-                                    </div>
-                                </div>
-                                <div class="kind">
-                                    <span><a href="">装饰摆件</a></span>
-                                    <span><a href="">生活用品</a></span>
-                                    <span><a href="">香薰香氛</a></span>
-                                    <span><a href="">空气净化</a></span>
-                                    <span><a href="">收纳整理</a></span>
-                                    <span><a href="">床品布艺</a></span>
-                                    <span><a href="">儿童家居</a></span>
-                                    <span><a href="">钟表灯具</a></span>
-                                    <span><a href="">衣物洗护</a></span>
-                                    <span><a href="">其它</a></span>
-                                    <span><a href="">运动器材</a></span>
-                                    <span><a href="">眼罩</a></span>
-                                    <span><a href="">情趣用品</a></span>
-                                    <span><a href="">口罩</a></span>
-                                    <span><a href="">电器</a></span>
-                                </div>
-                                <div class="triangle"></div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23685.png">
-                                        <div class="cat-name"><a href="">家具</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23686.png">    
-                                        <div class="cat-name"><a href="">文具</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23683.png">
-                                        <div class="cat-name"><a href="">数码</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23682.png" alt="">
-                                        <div class="cat-name"><a href="">玩乐</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23684.png" alt="">
-                                        <div class="cat-name"><a href="">厨卫</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23680.png" alt="">
-                                        <div class="cat-name"><a href="">美食</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23679.png" alt="">
-                                        <div class="cat-name"><a href="">男装</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23678.png" alt="">
-                                        <div class="cat-name"><a href="">女装</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23677.png" alt="">
-                                        <div class="cat-name"><a href="">童装</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23676.png" alt="">
-                                        <div class="cat-name"><a href="">鞋包</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23675.png" alt="">
-                                        <div class="cat-name"><a href="">配饰</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23681.png" alt="">
-                                        <div class="cat-name"><a href="">美护</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23674.png" alt="">
-                                        <div class="cat-name"><a href="">户外</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23671.png" alt="">
-                                        <div class="cat-name"><a href="">植物</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23668.png" alt="">
-                                        <div class="cat-name"><a href="">图书</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23672.png" alt="">
-                                        <div class="cat-name"><a href="">艺术</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23669.png" alt="">
-                                        <div class="cat-name"><a href="">礼物</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="shop">
-                                <div class="dt">
-                                    <div class="cat-img">
-                                        <img src="http://7qn7hi.com1.z0.glb.clouddn.com/ware/orig/2/23/23670.png" alt="">
-                                        <div class="cat-name"><a href="">推荐</a></div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-                    <div class="storeRight"></div>
-                </div>
-                <div class="cato" id="topicdata"></div>
-                <div class="cato" id="sharedata"></div>
-            </div>
+            <div class="header-subnav-cato"></div>
         </div>
     </div>
+    <script src="./js/header.js"></script>
 </body>
+
 </html>

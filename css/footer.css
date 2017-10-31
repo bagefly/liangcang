@@ -1,0 +1,20 @@
+/*初始化*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #878787;
+}
+
+/*尾部样式*/
+
+#service{
+    padding: 51px 0 78px;
+    width: 100%;
+    min-width: 1000px;
+    border-top: #ededed 1px solid;
+    background: #fbfdfe;
+    margin: 90px auto 0;
+}
