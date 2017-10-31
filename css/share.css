@@ -13,16 +13,17 @@
 	width: 1000px;
 	height: 348px;
 	margin: auto;
+	overflow: hidden;
 }
 #Hot  li{
-	margin-right: 20px;
+	margin-right: 38px;
 	width: 308px;
 	height: 348px;
 	float: left;
-	overflow: hidden;
 }
+
 #Hot .grey{
-	background-color: #eeeeee;
+	background: linear-gradient(#ffffff,#dddddd);
 	height: 30px;
 	color: #aaaaaa;
 	font-size: 13px;
@@ -79,5 +80,32 @@
 }
 #Option p{
 	color: white;
-	margin-top: 12px;
+	margin-top: 11px;
+}
+#Goods{
+	width: 1000px;
+	height: 2000px;
+	margin: auto;
+}
+#Goods li{
+	float: left;
+	width: 238px;
+	height: 270px;
+	margin-right: 16px;
+	margin-top: 15px;
+}
+
+#Goods .author{
+	width: 100%;
+	height: 35px;
+	background: linear-gradient(#ffffff,#dddddd);
+	color: #666666;
+	font-size: 12px;
+}
+.author span{
+	position: relative;
+	top: -10px;
+}
+.author *{
+	margin-right: 8px;
 }
