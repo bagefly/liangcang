@@ -71,14 +71,14 @@ window.onload=function(){
     $(option).append(tri);
     var priceTab=document.createElement("div");
     
-    $(priceTab).css({width:"100%",height:"145px",color:"white",textAlign:"center",background:"rgba(0,0,0,0.6)",borderRadius:"3%",position:"absolute",left:"-38px"})
+    $(priceTab).css({width:"100%",height:"145px",color:"white",textAlign:"center",background:"rgba(0,0,0,0.6)",borderRadius:"3%",position:"absolute",left:"-38px",zIndex:"10"})
     $(priceTab).html("<a><p>0-200元</p></a><a><p>201-500元</p></a><a><p>501-1000元</p></a><a><p>1001-3000元</p></a><a><p>3000元以上</p></a>");
     $(option).append(priceTab);
     $("#jiage").append(option);
     $("#jiage").mousemove(function(){
         $(option).show();
     })
-    $(option).mouseout(function(){
+    $("#jiage").mouseout(function(){
         $(option).hide();
     })
 
@@ -124,7 +124,7 @@ window.onload=function(){
             bookImg.src=obj.data[i].goods_thumb;
             $(box).append(bookImg);
             var shadow=document.createElement("div");
-            $(shadow).css({position:"absolute",width:"238px",height:"238px",zindex:"10",background:"linear-gradient(rgba(0,0,0,0.3),13%,rgba(0,0,0,0.1),13%,rgba(0,0,0,0.1))",opacity:"0"});
+            $(shadow).css({position:"absolute",width:"238px",height:"238px",background:"linear-gradient(rgba(0,0,0,0.4),13%,rgba(0,0,0,0.2),13%,rgba(0,0,0,0.2))",opacity:"0"});
             $(box).append(shadow);
             oLi.appendChild(box);
             $(shadow).mousemove(function(){
