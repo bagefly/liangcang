@@ -65,7 +65,7 @@
 }
 
 /* 设置字体颜色 居中 */
-#Cls .li a{
+#Cls .cls a{
 	width: 64px;
 	color:#000;
 	text-align:center;
@@ -128,22 +128,18 @@
 /* 设置价格下拉菜单边框  */
 #Cls .select-price li{
 	width: 95px;
+	line-height:39px;
+	text-indent:1em;
 	border-bottom:1px solid #efedeb;
 }
-/* 设置下拉下单字体 */
-#Cls .select-price a{
-	display:block;
-	width: 95px;	
-	height: 39px;
-	line-height:39px;
-	text-align:center;
-} 
 /* 设置第一条 “全部” 的 背景 和字体颜色 */
 #Cls .select-price .all{
 	width: 95px;
 	background-color:#333434;
 	color:#fff;
 }
+
+
 #Cls .cls .last{
 	border-width:0;
 }
@@ -187,7 +183,6 @@
 #ShopList1 .goodsInfo{
 	display:none;
 }
-
 
 /* 第二排 */
 #ShopList2 .item1,#ShopList2 .item2,#ShopList2 .item3,#ShopList2 .item4{
@@ -445,22 +440,6 @@
 .lis2 .item3:hover .goodsInfo1,.lis2 .item4:hover .goodsInfo1{
 	display:block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* More 尺寸 背景颜色*/
 #More{
 	width: 148px;

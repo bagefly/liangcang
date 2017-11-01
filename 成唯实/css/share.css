@@ -109,3 +109,40 @@
 .author *{
 	margin-right: 8px;
 }
+
+#Page{
+	width: 1000px;
+	height: 20px;
+	margin: auto;
+	margin-top: 50px;
+}
+#pageBox{
+	width: 450px;
+	height: 20px;
+	float: right;
+}
+#pageBox{
+	color: #666666;
+	font-size: 12px;
+	margin-bottom: 80px;
+}
+#pageBox *{
+	color: #666666;
+	font-size: 12px;
+	margin-left: 10px;
+}
+#pageBox span{
+	display: inline-block;
+	text-align: center;
+	width: 15px;
+	height: 15px;
+	margin-left: 0;
+}
+#pageBox span:hover{
+	background: #cccccc;
+	color: #ffffff;
+}
+#pageBox .current *{
+	background: #98b5d5;
+	color: white;
+}

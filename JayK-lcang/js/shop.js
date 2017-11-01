@@ -1,27 +1,31 @@
 var Angle = document.querySelector(".angle");
+var Price = document.querySelector(".price");
 var Select = document.querySelector(".select-price");
 var Li = Select.getElementsByTagName("li");
-var Text = document.querySelector(".text");
+var Text = Price.querySelector(".text");
 
 Text.onmouseover = function(){
     Select.style.display = "block";
-    Angle.style.transform = "rotateZ(180deg)";
 }
-
+Angle.onmouseover = function(){
+    Select.style.display = "block";    
+}
 for( i = 0; i < Li.length; i++ ){
     Li[i].onmouseover = function(){
-        for(i=0;i<Li.length;i++){
+        for( i = 0; i < Li.length; i++ ){
             Li[i].style.backgroundColor = "#fff";
+            Li[i].style.color = "#000";
         }
-        this.style.backgroundColor = "#333434";
+        this.style.color = "#fff";
+        this.style.backgroundColor = "#000";
+        this.onmouseout = function(){
+            Select.style.display = "none";
+        }
     }
-}
+};
 Text.onmouseout = function(){
     Select.style.display = "none";
-    Angle.style.transform = "rotateZ(0)"
 }
-
-
 
 // 获取产品 并展示 
 // 获取页面的展示产品的容器

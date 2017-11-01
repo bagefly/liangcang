@@ -1,0 +1,55 @@
+#Main{
+    width: 1000px;
+    margin:0 auto;
+}
+.displayStyle{
+    width: 1000px;
+    height: 20px;
+    line-height:20px;
+    position:relative;
+}
+/* 距离上边导航的距离 */
+.displayStyle{
+    margin-top:10px;
+}
+/* 设置右侧字体颜色 */
+.displayStyle span{
+    color:#666;
+    font-size:13px;    
+}
+/* 设置左上角的列表 和 浏览 */
+.displayStyle .scan,.displayStyle .list{
+    width: 41px;
+    height: 12px;
+    display:inline-block;
+}
+.displayStyle .list{
+    background-image:url("../img/scan-black-img.png");
+}
+.displayStyle .scan{
+    background-image:url("../img/list-blue-img.png");
+}
+
+/* 设置右侧字体距离及位置 */
+.displayStyle .right-text{
+    height: 20px;
+    width: 270px;
+    display:inline-block;
+    position:absolute;
+    right:0;
+}
+.displayStyle i{
+    font-style:normal;
+}
+.displayStyle img{
+    display:none;
+}
+
+
+/* 产品展示 */
+#GoodsList{
+    width: 1000px;
+    height: 5600px;
+    background-color:#f00;
+    margin-top:20px;
+}
