@@ -54,8 +54,7 @@ $("#login").click(function(){
             alert("登录成功");
             localStorage.setItem("username",$("#userInp").val());
             localStorage.setItem("password",$("#passInp").val());
-            // $.cookie("user",$("#userInp").val());
-            // $.cookie("password",$("#passInp").val()); 
+            localStorage.setItem("token",obj.data.token);
             setTimeout(function() {
                   location.href = "index.html";             
             }, 1000);

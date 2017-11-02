@@ -1,0 +1,1 @@
+$("#money").text("￥"+localStorage.getItem("money"));

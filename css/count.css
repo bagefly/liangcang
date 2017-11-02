@@ -1,0 +1,36 @@
+#main{
+	width: 1000px;
+	margin: auto;
+}
+#biaoti{
+	width: 160px;
+	height: 40px;
+	margin: auto;
+	margin-top: 50px;
+}
+.line{
+	width: 1000px;
+	height: 30px;
+	border-bottom: 1px solid #999999;
+}
+#main p{
+	margin-top: 20px;
+}
+#money{
+	width: 1000px;
+	height: 50px;
+	text-align: center;
+	color: blue;
+	font: italic bold 28px arail;
+	margin-top: 50px;
+}
+#pay{
+	margin: auto;
+	width: 80px;
+	height: 40px;
+	cursor: pointer;
+	color: white;
+	background: blue;
+	font: 20px/40px arail;
+	text-align: center;
+}
