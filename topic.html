@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <div id="header"></div>
     <div id="main" class="clear-float">
         <div class="tp-title">
             <span class="xp50">Journal</span>
@@ -386,7 +387,14 @@
             <input type="button" class="confirmBtn">
         </div>
     </div>
+    <div id="footer"></div>
+    <script>
+        $(document).ready(function(){
+            $("#footer").load("footer.html")
+        }) 
+    </script>
     <script src="./js/topic.js"></script>
+    <script src="js/header.js"></script>
 </body>
 
 </html>

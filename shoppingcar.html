@@ -11,7 +11,13 @@
     <script src="js/jquery.cookie.js"></script>
 </head>
 <body>
-    <div id="main">
+    <div id="header" style="z-index:100"></div>
+    <script>
+        $(document).ready(function(){
+            $("#header").load("header.html")
+        })    
+    </script>
+    <div id="main" style="margin-top:150px">
         <div id="tab">
             <div id="box1">购物车</div>
             <div id="box2">付款</div>            
@@ -29,13 +35,20 @@
             
         </div>
         <div id="count">
-            <p id="totalPrice">良品总价<span style="font-weight:bold;font-size:18px">/</span></p><div id="price"></div>
+            <p id="totalPrice">良品总价<span style="font-weight:bold;font-size:18px">/</span><span id="price" style="color:blue;font-size:18px">0.00</span>元</p>
             <a href="count.html"><p id="liji">立即结算</p></a>            
             <p id="jixu">———&nbsp;&nbsp;&nbsp;<a href="shop.html"><span>继续购物</span></a>&nbsp;&nbsp;———</p>
             
         </div>     
-
+        
     </div>
+    <div id="footer"></div>
+    <script>
+        $(document).ready(function(){
+            $("#footer").load("footer.html")
+        }) 
+    </script>
 </body>
 <script src="js/shoppingcar.js"></script>
+<script src="js/header.js"></script>
 </html>

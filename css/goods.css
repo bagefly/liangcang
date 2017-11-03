@@ -79,9 +79,9 @@
     border:1px solid #000;
 }
 #You-like{
-    width: 200px;
-    height: 1309px;
-    background-color:#f00;
+    width: 100px;
+    height: 1280px;
+    background-color:rgba(156, 152, 152, 0.5);
     float:right;
     margin-right:35px;
     margin-top:-445px;    
@@ -181,7 +181,7 @@
     padding-left:44px;
 }
 /* 包邮 和授权 的字体 颜色 */
-.goodsInfo shipNote p{
+.goodsInfo .shipNote p{
     line-height:17px;
     margin-left:4px;
     color:rgb(153,153,153);
@@ -282,6 +282,7 @@
     color:#000;
     line-height:34px;
     text-align:center;
+    cursor: pointer;
 }
 /* 加购 和 分享 的 图标大小 */
 .shop-share img,.shop-car img{
@@ -295,7 +296,8 @@
 /* 下面的简介 */
 #abstract{
     width: 720px;
-    margin-top:46px;
+    margin-top:56px;
+
 }
 #abstract div,#abstract img{
     width: 720px;

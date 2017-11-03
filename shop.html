@@ -8,29 +8,35 @@
     <link rel="shortcut icon" href="http://7q5ckq.com1.z0.glb.clouddn.com/static/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./css/init.css">
     <link rel="stylesheet" href="./css/shop.css">
+    <script src="./js/jquery-3.2.1.js"></script>
 </head>
 <body>
     
     <div id="Main">
-
-        <div id="Shop-title">
+        <div id="header" style="z-index:100"></div>
+        <script>
+            $(document).ready(function(){
+                $("#header").load("header.html")
+            })    
+        </script>
+        <div id="Shop-title" style="margin-top:150px">
             <a href="" class="postage"></a>
         </div>
 
 
         <div id="Banner">
-            <a href="http://www.baidu.com" target="_blank"><img src="./img/gd.jpg" alt=""></a>
+            <a href="" target="_blank"><img src="./img/gd.jpg" alt=""></a>
         </div>
 
 
         <div id="Cls" class="clear-float">
 
             <ul class="cls clear-float">
-                <li><a href="http://www.baidu.com">新品</a></li>
-                <li><a href="http://www.tmall.com">家居</a></li>
-                <li><a href="http://www.qq.com">家具</a></li>
+                <li><a href="">新品</a></li>
+                <li><a href="">家居</a></li>
+                <li><a href="">家具</a></li>
                 <li><a href="">文具</a></li>
-                <li><a href="">数码</a></li>
+                <li><a href="goods.html">数码</a></li>
                 <li><a href="">玩乐</a></li>
                 <li><a href="">厨卫</a></li>
                 <li><a href="">美食</a></li>
@@ -276,7 +282,7 @@
                 <a href="">
                     <img src="" alt="">
                 </a> 
-                <a href="http://www.qq.com" class="goodsInfo1">
+                <a href="" class="goodsInfo1">
                     <p class="a">
                         <span class="logo"></span>
                         <span class="text">Lom</span>
@@ -292,7 +298,7 @@
                 <a href="">
                     <img src="" alt="">
                 </a>
-                <a href="http://www.qq.com" class="goodsInfo1">
+                <a href="" class="goodsInfo1">
                     <p class="a">
                         <span class="logo"></span>
                         <span class="text">手帐</span>
@@ -468,10 +474,14 @@
         </div>
 
     </div>
+    <div id="footer"></div>
+    <script>
+        $(document).ready(function(){
+            $("#footer").load("footer.html")
+        }) 
+    </script>
 
-    
-    <script src="./js/jquery-3.2.1.js"></script>
     <script src="./js/shop.js"></script>
-
+    <script src="js/header.js"></script>
 </body>
 </html>

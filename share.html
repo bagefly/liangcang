@@ -10,8 +10,13 @@
     <script src="js/jquery-3.2.1.js"></script>
 </head>
 <body>
-    <div id="header"></div>
-    <div id="share"><a href="index.html">良仓</a>><a href="">全部精品</a>>分享</div>
+    <div id="header" style="z-index:100"></div>
+    <script>
+        $(document).ready(function(){
+            $("#header").load("header.html")
+        })    
+    </script>
+    <div id="share" style="margin-top:150px"><a href="index.html">良仓</a>><a href="">全部精品</a>>分享</div>
     <div id="Hot"></div>
     <div id="Option"><a href="" id="jiage">价格</a>&nbsp;|&nbsp;<a href="">喜欢</a>&nbsp;|&nbsp;<a href="">时间</a></div>
     <div id="Goods"></div>
@@ -28,7 +33,13 @@
             <button>下一页</button>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;跳转到<input type="text" value="1" style="width:25px;height:18px">&nbsp;&nbsp;页&nbsp;&nbsp;<button style="background:#98b5d5;color:white">确认</button>
         </div>
     </div>
-    
+    <div id="footer"></div>
+    <script>
+        $(document).ready(function(){
+            $("#footer").load("footer.html")
+        }) 
+    </script>
 </body>
 <script src="js/share.js"></script>
+<script src="js/header.js"></script>
 </html>

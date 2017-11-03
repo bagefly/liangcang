@@ -34,7 +34,9 @@ a{
     background: url("../img/icon.png") no-repeat;
     float: left;
 }
-
+#header .header-top .top-menu #logo:hover{
+    opacity: 0.8;
+}
 #header .header-top .top-menu .nav_right{
     height: 56px;
     position: relative;

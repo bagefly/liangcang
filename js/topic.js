@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $("#header").load("header.html")
+})  
+
 var oLi = document.getElementsByTagName("li");
 
 for(var i = 1; i < oLi.length - 1; i++){
